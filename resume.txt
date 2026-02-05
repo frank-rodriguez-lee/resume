@@ -1,0 +1,134 @@
+FRANK RODRIGUEZ LEE
+Programme Manager | Delivery Manager
+frankrodriguezlee@gmail.com | +44-7704 647064 | https://www.linkedin.com/in/frankrodriguezlee/
+Proven technology leader with two decades of experience leading global programme management and digital transformation. Acknowledged for delivering complex business and technology projects across multiple industries (Retail, Utilities, Finance). A dedicated change agent with balanced technical and business judgment; adept at managing globally distributed teams and steering consensus among diverse stakeholders by leveraging deep expertise in Agile methodologies, architecture, and data analytics.
+
+Career Summary
+Organization	Designation	Duration 
+NTTData UK&I	Senior Principal Consultant – Enterprise Agility/Delivery Management	June 2022 – Current
+Telefonica (HISPAM, LATAM)	Solution Train Engineer/Programme Manager	Jan 2022 – June 2022
+Telefonica (Perú)	Solution Train Engineer/Programme Manager	May 2018 – Dec 2021
+Teradata (Perú)	Delivery Manager/Programme Manager	Jul 2016 – May 2018
+Axcess Financial (Perú, USA, UK)	Senior Project Manager/Technical Program Manager	Nov 2011 – Jun 2016
+Avances Tecnológicos (Perú)	Senior Software Engineer/Technical Lead	Apr 2010 – Oct 2011
+EPS GRAU S.A (Perú)	Senior Software Engineer/System Analyst	Feb 2007 – Mar 2010
+National University of Piura (Perú)	Software Engineer	Jan 2006 – Dec 2006
+
+CAREER HIGHLIGHTS
+Senior Principal Consultant – Enterprise Agility/Product Management/Delivery Management - Jun 2022 – Present 
+NTTDATA – Value Area Lead – Delivery and Optimise
+•	Official trainer for SAFe courses in Product Management/Owner, Scrum Master and Leading SAFe.
+•	Led Value Area for Delivery and Optimise of Enterprise Agility Practise. – Leading circa 7 people.
+NTTDATA - Agile Delivery Manager, Automotive Marketing Technology
+●	Managed the discovery/delivery of multiple Programmes/Projects for Marketing Technology Department
+●	Led platform teams for Salesforce/MuleSoft development. – Leading circa 20 people.
+●	Led and enable cross functional teams. (Architects, Business Analyst, Salesforce Developer, Integration Developers)
+●	Defined new ways of working and Improve teams performance by 25%. 
+●	Defined implementation roadmap for different markets using Salesforce/MuleSoft solutions (Europe, UK, North America)
+●	Managed multiple stakeholders of different markets across Europe, Canada and USA
+●	Led/Facilitated technical assessment/scoping based on incoming projects and requirements using Salesforce/MuleSoft technologies.
+NTTDATA - Release Train Engineer/Agile Delivery Manager, Retail
+●	Defined and stablished ways of working and end to end delivery for eCommerce Agile Release Train (Programme) – Leading circa 40 people.
+●	Enabled and coached teams in new ways of working to deliver value and better results.
+●	Coached Product Manager in refinement techniques, prioritization, and agile ways of working. 
+●	Manage multiple stakeholders across Europe.
+NTTDATA - Agile Coach for ART, Insurance. 
+●	Coached RTE and PM in new ways of working. – Leading circa 70 people on different agile release trains.
+●	Defined, assembled, and coached Teams in new ways of working.
+●	Led and supported the creation of Lean-Agile Center of Excellence.
+●	Co-created assets and playbooks to provide guidelines in the transformation journey.
+●	Facilitated and supported PI Planning Events and ARTs ceremonies.
+
+Solution Train Engineer/Programme Manager – Digital Channels HISPAM - Jan 2022 – June 2022 
+Telefónica HISPAM, (Remote, Peru-Latam)
+●	Managed the discovery/delivery of multiple Programmes/Projects for Digital Channels. – Leading circa 150 people.
+●	Led the Solution Delivery for Digital Channel across LATAM Countries.
+●	Supported to shape the agile transformation roadmap for Digital Channels in Peru, Colombia, Ecuador, Chile, Argentina, Uruguay, and México.
+●	Defined, implemented, and adapt the Agile Operational Model for Digital Channels for each country. 
+●	Led the OKRs implementation for the Digital Channel ARTs in each country.
+●	Support and guidance to identify Enablers and Features. 
+●	Provided alignment and act as escalation point for the implementation of the new agile operation model.
+
+Solution Train Engineer/Programme Manager - May 2018 – Dec 2021 
+Telefónica – Lima, Peru 
+●	Supported one of the large telecommunications providers to implement Agile Culture and Digital Transformation. 
+●	Highlights:
+o	Managed the discovery/delivery portfolio of Software Development Process for Telefonica del Peru. – Leading circa 150 people.
+o	Led and implemented the PI Planning Process for Movistar and improving the software delivery cadence. PI Planning establish a quarter planning cadence for the software development process in the company.
+o	Coach Product Managers and Product owners in Discovery Process and PI Planning Backlog Readiness.
+o	Led and Managed Discovery and PI Planning Process in Movistar Perú.
+o	Designed the first Online PI Planning Process for Movistar Perú and connecting more that 500 people.
+o	Defined value stream mapping for digital channel enabling cloud computing technology.
+o	Defined Jira Workflow with TI for the different teams in Movistar.
+o	Defined, assembled, and coached Teams in new ways of working.
+o	Co-Trainer for New Telefonica Ways – Peru: Introduce the agile mindset to Telefonica with agile Workshops, training more than 300 people (Managers and Leads).
+●	Awards:
+o	Acknowledgment of Contribution of PI Planning Process Development with excellence results – VP Operational Excellence
+o	Telefonica Peru as case study for Atlassian.
+o	Telefonica Peru as case study in Scaled Agile PI Event.
+●	Technology: SAFe Implementation Model, Program Management, Jira, Azure, DevOps, Java and .Net Development.
+
+Agile Delivery Manager/Programme Manager - June 2016 – January 2018
+TERADATA – Lima, Peru
+●	Teradata is a leading provider of powerful, enterprise big data analytics and services that include Data Warehousing, Data Driven Marketing, BI and CRM.
+●	I led the first agile project/programme in Latin America for Teradata. Leading cross functional teams (Business Modeler, Business Consultant, ETL Consultant, and BI Consultant) and managing expectations of different business areas. Responsible for PNL and budget project execution. Identify new business opportunities and presales.
+●	Highlights:
+o	Generated 2.5 million USD of revenue in 2016 and 2017 based on projects executed.
+o	Defined the KANBAN Process for Delivery.
+o	Defined the roles and roadmap required for the analytical and data Agile program (8 million USD). The major Analytical and data Agile Program in Latin America.
+o	Defined, assembled, and coached Teams in new ways of working.
+o	Responsible for the PNL execution of the initiatives.
+
+●	Awards:
+o	Teradata Peru for best performance award in 2016-Q3
+o	Teradata CLA (Caribbean and Latin America) award for first agile project in data-warehouse in 2016.
+●	Technology: Scrum, Agile at scale, Kanban, Jira, Datawarehouse, Data Ingestion, Business Analytics, Data Modeling and Teradata Vantage.
+
+Technical Program Manager - Nov 2013 – June 2016     
+AXCESS FINANCIAL USA – Cincinnati, Ohio, United States – L1A VISA
+●	Axcess Financial is a respected leader in the financial industry in USA. Axcess partners with best-in-class financial service providers like Check ‘n Go and Allied Cash to provide financial services that are more accessible to people who traditionally have been underserved by mainstream banking institutions.
+●	I led medium/large/complex size projects. I Led cross functional teams geographically distributed in Peru, USA, UK (BA, DEV, QA, Business [UAT] and Infrastructure) and manage the expectations of senior stakeholders. (Directors and C-Level)
+●	Highlights:
+o	Evaluated new ideas/request from business departments before turn into projects for Online/Retail channels. 
+o	Managed the interdependencies between projects based on architecture components of the applications to mitigate risk during execution.
+o	Led the Program implementation for the new Underwriting Module and launch of new Choice Loan Product across 26 states in US. 
+o	Led the implementation of ACHs and Accounting´s module for the new implementation for I2 Connection System. 
+o	Led the implementation of the new systems for check cashing process for CheckN´GO.
+o	Interviewer for new Project Manager Applicants and Mentor/Coach for new hires.
+●	Technology: Project/Program Management, Scrum, Kanban, Jira, Java EE 8, Spring Framework 3, Angular, JBoss Application Server, SOA Architecture, Jenkins, SonarQ and DevOps.
+
+Project Coordinator/Technical Project Manager/ Senior Project Manager - Nov 2011 – Nov 2013     
+AXCESS FINANCIAL PERU (CNG HOLDINGS) – Lima, Peru
+●	CNG HOLDINGS Peru is IT Development Centre and IT Operations for Axcess Financial USA located in Lima, Peru.
+●	I led enhancements/medium size projects, centralized all changes related to US Retail channel. Led the prioritization meeting with business department. Led cross functional teams geographically distributed in Peru, USA, UK (BA, DEV, QA, Business [UAT] and Infrastructure) and managed the expectations of business departments/areas.
+●	Highlights:
+o	Created/executed a two-month transfer knowledge plan from India to Peru for US Online systems and led engineering team to support eBusiness/eCommerce departments from Peru.
+o	Managed/Planned overall schedule for US Retail/Online channel enhancements and set a monthly/quarter planning and software delivery cadence. 
+o	Implementations of DevOps pipelines for Online Channel.
+o	Launch new commercial products across states in US like Title Loan, Online Payment Loans.
+o	Interviewer for new Project Managers applicants and Mentor/Coach for new hires.
+●	Awards:
+o	Acknowledgment of Contribution - Lima office Operations 
+●	Technology: Project/Program Management, Scrum, Kanban, Jira, Java EE 8, Spring, Angular, JBoss Application Server, SOA Architecture, Jenkins, SonarQ and DevOps.
+
+ACADEMIC
+•	Specialisation Certificate, Machine Learning Specialization – Stanford
+•	MBA, General – Universidad Politécnica de Madrid – España
+•	Diploma, Java/.Net Web Technologies - Universidad de Piura - Perú 
+•	Bachelor’s, Computing Engineering – Universidad Nacional de Piura - Perú
+
+LANGUAGES
+English:    	Advanced - Fluent (Speaking, Reading, Writing)
+Spanish:	Native
+
+RELEVANT CERTIFICATIONS & TRAININGS
+•	Planview Portfolio Foundations, Flow Framework Professional Certification - Planview
+•	SAFe Practice Consultant, Release Train Engineer, SAFe Advanced Scrum Master and SAFe Agilist – Scaled Agile
+•	Professional Scrum Master – PSM I – Scrum Org.
+•	Kanban Professional Management - KMPI y KMPII – Kanban University.
+•	Design Thinking, Product Manager, Product Led, Product Analytics – IBM, Pendo 
+•	Oracle Certified Professional Generative AI - Oracle
+•	Azure Fundamentals, Power BI Data Analyst Associate – Microsoft
+•	Google Cloud Digital Leader, Project Management Certificate, Cybersecurity – Google
+•	SOA Design, Microservices – IBM.
+•	Oracle Certified Professional Java SE 6.0, Web Component 5.0, EJB 5.0. – Oracle
