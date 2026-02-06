@@ -300,39 +300,96 @@
 
     <!-- Contact Section -->
     <section id="contact" class="py-24 bg-slate-900">
-        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 class="text-3xl font-bold text-white mb-8" data-i18n="nav.contact">Contacto</h2>
-            <p class="text-slate-400 mb-12 text-lg">
-                <span class="block mb-2 text-3xl text-white font-semibold">Ready to start a project?</span>
-                Let's collaborate to drive your digital transformation.
-            </p>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-4xl mx-auto mb-16">
+                <h2 class="text-3xl font-bold text-white mb-8" data-i18n="nav.contact">Contacto</h2>
+                <p class="text-slate-400 text-lg">
+                    <span class="block mb-2 text-3xl text-white font-semibold" data-i18n="contact.headline">Ready to
+                        start a project?</span>
+                    <span data-i18n="contact.subheadline">Let's collaborate to drive your digital transformation.</span>
+                </p>
+            </div>
 
-            <div class="flex flex-col md:flex-row justify-center gap-6">
-                <a href="mailto:frankrodriguezlee@gmail.com"
-                    class="group flex items-center justify-center gap-4 bg-slate-800 p-8 rounded-2xl border border-slate-700 hover:border-blue-500 hover:bg-slate-800/50 transition-all duration-300">
-                    <div
-                        class="w-12 h-12 bg-blue-500/10 rounded-full flex items-center justify-center group-hover:bg-blue-500 group-hover:text-white text-blue-500 transition-colors">
-                        <i class="fa-regular fa-envelope text-xl"></i>
-                    </div>
-                    <div class="text-left">
-                        <p class="text-xs text-slate-500 uppercase tracking-wide font-semibold">Email Me</p>
-                        <p class="text-white text-lg font-medium">frankrodriguezlee@gmail.com</p>
-                    </div>
-                </a>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+                <!-- Contact Info -->
+                <div class="flex flex-col gap-6">
+                    <a href="mailto:frankrodriguezlee@gmail.com"
+                        class="group flex items-center justify-start gap-4 bg-slate-800 p-8 rounded-2xl border border-slate-700 hover:border-blue-500 hover:bg-slate-800/50 transition-all duration-300">
+                        <div
+                            class="w-12 h-12 bg-blue-500/10 rounded-full flex items-center justify-center group-hover:bg-blue-500 group-hover:text-white text-blue-500 transition-colors">
+                            <i class="fa-regular fa-envelope text-xl"></i>
+                        </div>
+                        <div class="text-left">
+                            <p class="text-xs text-slate-500 uppercase tracking-wide font-semibold"
+                                data-i18n="contact.email_label">Email Me</p>
+                            <p class="text-white text-lg font-medium break-all">frankrodriguezlee@gmail.com</p>
+                        </div>
+                    </a>
 
-                <a href="https://linkedin.com/in/frankrodriguezlee" target="_blank"
-                    class="group flex items-center justify-center gap-4 bg-slate-800 p-8 rounded-2xl border border-slate-700 hover:border-blue-500 hover:bg-slate-800/50 transition-all duration-300">
-                    <div
-                        class="w-12 h-12 bg-blue-500/10 rounded-full flex items-center justify-center group-hover:bg-blue-500 group-hover:text-white text-blue-500 transition-colors">
-                        <i class="fa-brands fa-linkedin-in text-xl"></i>
-                    </div>
-                    <div class="text-left">
-                        <p class="text-xs text-slate-500 uppercase tracking-wide font-semibold">Connect on</p>
-                        <p class="text-white text-lg font-medium">LinkedIn</p>
-                    </div>
-                </a>
+                    <a href="https://linkedin.com/in/frankrodriguezlee" target="_blank"
+                        class="group flex items-center justify-start gap-4 bg-slate-800 p-8 rounded-2xl border border-slate-700 hover:border-blue-500 hover:bg-slate-800/50 transition-all duration-300">
+                        <div
+                            class="w-12 h-12 bg-blue-500/10 rounded-full flex items-center justify-center group-hover:bg-blue-500 group-hover:text-white text-blue-500 transition-colors">
+                            <i class="fa-brands fa-linkedin-in text-xl"></i>
+                        </div>
+                        <div class="text-left">
+                            <p class="text-xs text-slate-500 uppercase tracking-wide font-semibold"
+                                data-i18n="contact.linkedin_label">Connect on</p>
+                            <p class="text-white text-lg font-medium">LinkedIn</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="bg-slate-800 rounded-2xl p-8 border border-slate-700 shadow-xl">
+                    <form id="contactForm"
+                        action="https://docs.google.com/forms/d/e/1FAIpQLSf11N7zAVmfbFuV-zktF5H2T0CpyGg1RCAGktx1w2hGuqeWEA/formResponse"
+                        method="POST" target="hidden_iframe" onsubmit="confirmarEnvio()">
+
+                        <div class="space-y-6">
+                            <div>
+                                <label for="nombre" class="block text-sm font-medium text-slate-400 mb-2"
+                                    data-i18n="form.name">Nombre Completo</label>
+                                <input type="text" id="nombre" name="entry.1536628345" required
+                                    class="w-full px-4 py-3 bg-slate-900 border border-slate-700 rounded-lg text-white focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-colors"
+                                    data-i18n-placeholder="form.name_ph">
+                            </div>
+
+                            <div>
+                                <label for="email" class="block text-sm font-medium text-slate-400 mb-2"
+                                    data-i18n="form.email">Correo Electrónico</label>
+                                <input type="email" id="email" name="entry.1557949445" required
+                                    class="w-full px-4 py-3 bg-slate-900 border border-slate-700 rounded-lg text-white focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-colors"
+                                    data-i18n-placeholder="form.email_ph">
+                            </div>
+
+                            <div>
+                                <label for="telefono" class="block text-sm font-medium text-slate-400 mb-2"
+                                    data-i18n="form.phone">Teléfono</label>
+                                <input type="tel" id="telefono" name="entry.1457440213" required
+                                    class="w-full px-4 py-3 bg-slate-900 border border-slate-700 rounded-lg text-white focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-colors"
+                                    data-i18n-placeholder="form.phone_ph">
+                            </div>
+
+                            <div>
+                                <label for="mensaje" class="block text-sm font-medium text-slate-400 mb-2"
+                                    data-i18n="form.message">Mensaje</label>
+                                <textarea id="mensaje" name="entry.1392876022" rows="4" required
+                                    class="w-full px-4 py-3 bg-slate-900 border border-slate-700 rounded-lg text-white focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-colors resize-none"
+                                    data-i18n-placeholder="form.message_ph"></textarea>
+                            </div>
+
+                            <button type="submit"
+                                class="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-all shadow-lg shadow-blue-500/20 flex items-center justify-center gap-2">
+                                <span data-i18n="form.submit">Enviar Mensaje</span>
+                                <i class="fa-solid fa-paper-plane text-sm"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
+        <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="respuestaCargada()"></iframe>
     </section>
 
     <!-- Footer -->
@@ -405,6 +462,23 @@
                 },
                 links: {
                     pdf: "./cv-frank-rodriguez-es.pdf"
+                },
+                contact: {
+                    headline: "¿Listo para comenzar un proyecto?",
+                    subheadline: "Colaboremos para impulsar tu transformación digital.",
+                    email_label: "Envíame un correo",
+                    linkedin_label: "Conecta en"
+                },
+                form: {
+                    name: "Nombre Completo",
+                    name_ph: "Tu nombre",
+                    email: "Correo Electrónico",
+                    email_ph: "ejemplo@correo.com",
+                    phone: "Teléfono",
+                    phone_ph: "+51 123 456 789",
+                    message: "Mensaje",
+                    message_ph: "Escribe tu consulta aquí...",
+                    submit: "Enviar Mensaje"
                 }
             },
             en: {
@@ -460,6 +534,23 @@
                 },
                 links: {
                     pdf: "./cv-frank-rodriguez-en.pdf"
+                },
+                contact: {
+                    headline: "Ready to start a project?",
+                    subheadline: "Let's collaborate to drive your digital transformation.",
+                    email_label: "Email Me",
+                    linkedin_label: "Connect on"
+                },
+                form: {
+                    name: "Full Name",
+                    name_ph: "Your Name",
+                    email: "Email Address",
+                    email_ph: "john@example.com",
+                    phone: "Phone",
+                    phone_ph: "+1 234 567 890",
+                    message: "Message",
+                    message_ph: "Write your message here...",
+                    submit: "Send Message"
                 }
             }
         };
@@ -490,6 +581,17 @@
                     value = value[k];
                 });
                 if (value) element.textContent = value;
+            });
+
+            // Update Placeholders
+            document.querySelectorAll('[data-i18n-placeholder]').forEach(element => {
+                const key = element.getAttribute('data-i18n-placeholder');
+                const keys = key.split('.');
+                let value = data;
+                keys.forEach(k => {
+                    value = value[k];
+                });
+                if (value) element.placeholder = value;
             });
 
             // Update PDF Links
@@ -530,6 +632,23 @@
 
         // Initialize (optional, HTML is already ES by default but this ensures sync)
         updateLanguage('en');
+
+        // Contact Form Handlers
+        let enviado = false;
+
+        function confirmarEnvio() {
+            enviado = true;
+        }
+
+        function respuestaCargada() {
+            if (enviado) {
+                const lang = currentLang;
+                const msg = lang === 'es' ? "¡Gracias! Tu mensaje ha sido enviado correctamente." : "Thank you! Your message has been sent successfully.";
+                alert(msg);
+                document.getElementById("contactForm").reset();
+                enviado = false;
+            }
+        }
 
     </script>
 </body>

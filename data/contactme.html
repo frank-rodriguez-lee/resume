@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .form-container {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 1.5rem;
+        }
+
+        .form-group {
+            margin-bottom: 1rem;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+            /* Para que el padding no rompa el ancho */
+        }
+
+        input:focus,
+        textarea:focus {
+            border-color: #007bff;
+            outline: none;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1rem;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="form-container">
+        <h2>Contáctanos</h2>
+
+        <script>
+            var enviado = false;
+            function confirmarEnvio() {
+                enviado = true;
+            }
+
+            // Esta función detecta cuando el iframe carga. Si ya enviamos el form, muestra el aviso.
+            function respuestaCargada() {
+                if (enviado) {
+                    alert("¡Gracias! Tu mensaje ha sido enviado correctamente.");
+                    document.getElementById("miFormulario").reset();
+                    enviado = false;
+                }
+            }
+        </script>
+
+        <form id="miFormulario"
+            action="https://docs.google.com/forms/d/e/1FAIpQLSf11N7zAVmfbFuV-zktF5H2T0CpyGg1RCAGktx1w2hGuqeWEA/formResponse"
+            method="POST" target="hidden_iframe" onsubmit="confirmarEnvio()">
+
+            <div class="form-group">
+                <label for="nombre">Nombre Completo</label>
+                <input type="text" id="nombre" name="entry.1536628345" required placeholder="Tu nombre">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Correo Electrónico</label>
+                <input type="email" id="email" name="entry.1557949445" required placeholder="ejemplo@correo.com">
+            </div>
+
+            <div class="form-group">
+                <label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" name="entry.1457440213" placeholder="+54 11..." required>
+            </div>
+
+            <div class="form-group">
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="entry.1392876022" rows="4" required
+                    placeholder="Escribe tu consulta aquí..."></textarea>
+            </div>
+
+            <button type="submit">Enviar Mensaje</button>
+        </form>
+    </div>
+
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="respuestaCargada()"></iframe>
+
+</body>
+
+</html>
