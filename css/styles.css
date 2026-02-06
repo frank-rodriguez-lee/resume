@@ -1,0 +1,22 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Custom timeline line */
+.timeline-line::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 20px;
+    width: 2px;
+    background-color: #334155;
+    /* slate-700 */
+}
+
+@media (min-width: 768px) {
+    .timeline-line::before {
+        left: 50%;
+        margin-left: -1px;
+    }
+}
